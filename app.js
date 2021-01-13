@@ -11,6 +11,7 @@ function clickEventHandler() {
   let sellP = Number(sp.value) * qtyVal;
 
   let res = sellP - costP;
+  res = res.toFixed(2);
 
   let per = (res / costP) * 100;
 
